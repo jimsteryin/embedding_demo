@@ -3,7 +3,6 @@ numpy
 gdown
 sentence-transformers
 matplotlib
-math
 openai
 pandas
 pickle
