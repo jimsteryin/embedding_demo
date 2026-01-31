@@ -163,7 +163,13 @@ def get_glove_embeddings(word, word_index_dict, embeddings, model_type):
     if word.lower() in word_index_dict:
         return embeddings[word_index_dict[word.lower()]]
     else:
-        return np.zeros(int(model_type.split("d")[0]))
+        # Safeguard: Ensure model_type is a string and handle potential float values
+        try:
+            dim = int(str(model_type).split("d")[0])
+        except (ValueError, AttributeError):
+            dim = 50  # Default fallback if parsing fails
+            
+        return np.zeros(dim)
 
 
 def get_category_embeddings(embeddings_metadata):
