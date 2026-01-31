@@ -1,0 +1,7 @@
+embeddings_*.npy
+word_index_dict_*.pkl
+Data/
+__pycache__/
+.DS_Store
+*.docx
+test_cosine.py

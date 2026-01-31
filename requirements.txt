@@ -1,0 +1,10 @@
+streamlit
+numpy
+numpy.linalg
+pickle
+os
+gdown
+sentence_transformers
+matplotlib.pyplot
+math
+openai
