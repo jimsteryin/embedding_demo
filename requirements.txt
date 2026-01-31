@@ -5,5 +5,4 @@ sentence-transformers
 matplotlib
 openai
 pandas
-pickle
 os
