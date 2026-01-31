@@ -1,10 +1,10 @@
 streamlit
 numpy
-numpy.linalg
-pickle
-os
 gdown
-sentence_transformers
-matplotlib.pyplot
+sentence-transformers
+matplotlib
 math
 openai
+pandas
+pickle
+os
